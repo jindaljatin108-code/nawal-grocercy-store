@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nawal Grocery Store</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="stylesheet 1.css">
+</head>
+<body>
+    
+    <!-- Header section starts -->
+    <header class="header">
+        <a href="#" class="logo">
+            <i class="fas fa-shopping-basket"></i> Nawal Grocery Store
+        </a>
+        
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#feature">Features</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        
+        <!-- Search Form -->
+        <div class="search-form">
+            <input type="search" placeholder="Search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+        
+        <!-- Shopping Cart -->
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="drink.jpg" alt="Product">
+                <div class="content">
+                    <h3>Coca Cola</h3>
+                    <span class="price">₹80/-</span>
+                    <span class="quantity">Qty: 1</span>
+                </div>
+            </div>
+            <div class="total">Total: ₹80/-</div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+               
+        <!-- Login Form -->
+        <div class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" placeholder="Your Email" class="box">
+            <input type="password" placeholder="Your Password" class="box">
+            <p>Forgot your password? <a href="#">Click here</a></p>
+            <p>Don't have an account? <a href="#">Create now</a></p>
+            <input type="submit" value="Login Now" class="btn">
+        </div>
+    </header>
+    <!-- Header section ends -->
+    
+    <!-- Home section starts -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh and <span>Organic</span> Products for You</h3>
+            <p>Get your daily fresh groceries from Nawal Grocery Store.<br>We provide the best quality products at affordable prices.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+    <!-- Home section ends -->
+    
+    <!-- Features section starts -->
+    <section class="feature" id="feature">
+        <h1 class="heading">Our <span>Features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="fresh 1.jpg" alt="Fresh Products">
+                <h3>Fresh and Organic</h3>
+                <p>Get your daily fresh groceries from Nawal Grocery Store.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            
+            <div class="box">
+                <img src="delivery 1.png" alt="Free Delivery">
+                <h3>Free Delivery</h3>
+                <p>Get your daily fresh groceries from Nawal Grocery Store.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            
+            <div class="box">
+                <img src="pay.jpg" alt="Easy Payment">
+                <h3>Easy Payment</h3>
+                <p>Get your daily fresh groceries from Nawal Grocery Store.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!-- Features section ends -->
+    
+    <!-- Products section starts -->
+    <section class="products" id="products">
+        <h1 class="heading">Our <span>Products</span></h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="drink.jpg" alt="Coca Cola">
+                    <h3>Coca Cola</h3>
+                    <div class="price">₹80/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                
+                <div class="swiper-slide box">
+                    <img src="reb lays.jpg" alt="Red Lays">
+                    <h3>Red Lays</h3>
+                    <div class="price">₹10/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                
+                <div class="swiper-slide box">
+                    <img src="green lays.png" alt="Green Lays">
+                    <h3>Green Lays</h3>
+                    <div class="price">₹10/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                
+                <div class="swiper-slide box">
+                    <img src="kurkure 1.png" alt="Kurkure">
+                    <h3>Kurkure</h3>
+                    <div class="price">₹10/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                
+                <div class="swiper-slide box">
+                    <img src="navratan namkeen.webp" alt="Navratan Namkeen">
+                    <h3>Navratan Namkeen</h3>
+                    <div class="price">₹175/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            
+            <!-- Swiper Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <!-- Products section ends -->
+    
+    <!-- Categories section starts -->
+    <section class="categories" id="categories">
+        <h1 class="heading">Product <span>Categories</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="onion.webp" alt="Onion">
+                <h3>Onion</h3>
+                <p>Upto 45% off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            
+            <div class="box">
+                <img src="aloo.webp" alt="Potatoes">
+                <h3>Potatoes</h3>
+                <p>Upto 45% off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+    <!-- Categories section ends -->
+    
+    <!-- Review section starts -->
+    <section class="review" id="review">
+        <h1 class="heading">Customer's <span>Review</span></h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="john.webp" alt="Customer John">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h3>John Deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide box">
+                    <img src="john.webp" alt="Customer John">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h3>John Deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide box">
+                    <img src="john.webp" alt="Customer John">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h3>John Deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide box">
+                    <img src="JatinJindal.jpg" alt="Jatin Jindal">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h3>Jatin Jindal</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Swiper Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <!-- Review section ends -->
+    
+    <!-- Footer section starts -->
+    <section class="footer" id="contact">
+        <div class="box-container">
+            <div class="box">
+                <h3>Grocery <i class="fas fa-shopping-basket"></i></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, quo.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-youtube"></a>
+                    <a href="#" class="fab fa-whatsapp"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div>
+            </div>
+            
+            <div class="box">
+                <h3>Contact Information</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i> +905-619-0928</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i> jindaljatin@gmail.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marker-alt"></i> Sanaur, Punjab</a>
+            </div>
+            
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#home" class="links"><i class="fas fa-arrow-right"></i> Home</a>
+                <a href="#feature" class="links"><i class="fas fa-arrow-right"></i> Features</a>
+                <a href="#products" class="links"><i class="fas fa-arrow-right"></i> Products</a>
+                <a href="#categories" class="links"><i class="fas fa-arrow-right"></i> Categories</a>
+                <a href="#review" class="links"><i class="fas fa-arrow-right"></i> Review</a>
+                <a href="#contact" class="links"><i class="fas fa-arrow-right"></i> Contact</a>
+            </div>
+            
+            <div class="box">
+                <h3>Newsletter</h3>
+                <p>Subscribe for latest updates</p>
+                <input type="email" placeholder="Enter your email" class="email">
+                <input type="submit" value="Subscribe" class="btn">
+                <img src="payment.png" class="payment-img" alt="Payment Methods">
+            </div>
+        </div>
+    </section>
+    <!-- Footer section ends -->
+    
+    <!-- Custom JS file link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
